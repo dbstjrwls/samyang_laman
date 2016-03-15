@@ -20,7 +20,8 @@ enum
 } _eLASER_STATUS;
 
 ///////////////////////////////////
-
+// 구현 완료 #1
+// 구현 완료 #2
 void LaserControlHandler_100ms()
 {
     static volatile u16 state=0;
