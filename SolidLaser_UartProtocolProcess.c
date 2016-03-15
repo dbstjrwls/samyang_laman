@@ -1,3 +1,6 @@
+// 구현 완료 #1
+// 구현 완료 #2
+// 최종완료 !!!
 #include "DSP2833x_28335_Define.h"
 #include "SolidLaser_UartProtocolProcess.h"
 #include "main.h"
@@ -20,8 +23,6 @@ enum
 } _eLASER_STATUS;
 
 ///////////////////////////////////
-// 구현 완료 #1
-// 구현 완료 #2
 void LaserControlHandler_100ms()
 {
     static volatile u16 state=0;
