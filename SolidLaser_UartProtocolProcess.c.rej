@@ -1,7 +1,0 @@
-diff a/SolidLaser_UartProtocolProcess.c b/SolidLaser_UartProtocolProcess.c	(rejected hunks)
-@@ -1,4 +1,5 @@
- // ±â´É2 ½ÃÀÛ.
-+//º¯°æ.
- #include "DSP2833x_28335_Define.h"
- #include "SolidLaser_UartProtocolProcess.h"
- #include "main.h"
