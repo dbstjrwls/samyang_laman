@@ -1,4 +1,4 @@
-
+// 구현 완료 #2
 #ifndef __PROCESS_H
 #define __PROCESS_H
 
@@ -13,7 +13,7 @@
 // Structure Data Frame
 // SOF | LEN | MSG ID | DATA | CHECKSUM | EOT
 // (1) | (1) | (1)    | (N)  | (1)      | (1)
-//------------------------------------------------------------------------ 
+//------------------------------------------------------------------------
 
 // falcon serial protocol
 #define SOF						0x7E
@@ -21,7 +21,7 @@
 
 // Raman -> Laser Module
 #define R2L_INIT				0xA1	// 1Hz
-#define R2L_SELF_CHECK_REQ		0xA3	
+#define R2L_SELF_CHECK_REQ		0xA3
 #define R2L_CONTROL_COMMAND		0xA4
 
 // Laser Module -> Raman
@@ -144,7 +144,7 @@ LASER_RCV_CONTROL_COMMAND_RSP	LaserRcvControlCommandRsp;
 LASER_RCV_FIRE_COMMAND_RSP		LaserRcvFireCommandRsp;
 
 // sequence control
-void LaserControlHandler_100ms(void);		
+void LaserControlHandler_100ms(void);
 
 // receive function
 void SCICProtocolFunction(u8 bData);
